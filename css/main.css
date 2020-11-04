@@ -1,0 +1,80 @@
+.know{
+    background: rgb(0,17,103);
+background: radial-gradient(circle, rgba(0,17,103,1) 0%, rgba(228,46,83,1) 100%);
+color: black;
+}
+.knew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4375rem;
+    height: 10rem;
+}
+.read{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    margin-left: 28%;
+    margin-right: 25%;
+    font-size: 1.3em;
+    color: white;
+}
+
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3F3D56;
+    align-items: center;
+    padding: 2em;
+    background-color: white;
+    border-radius: 5px;
+    width: 12.5rem;
+}
+.line1, .line2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5.9375rem;
+
+}
+figcaption, .html, .css3 .sass{
+    padding-top: 1.875rem;
+    font-size: 1.25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6:hover{
+    color: #96969c;
+    cursor: pointer;
+}
+.line2{
+    padding-block-end: 5em;
+}
+.someone{
+    background-color:  rgb(145, 16, 117);
+}
+.comillas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4375rem;
+    height: 4em;
+}
+.subtitle-quote, .post-someone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    margin-left: 28%;
+    margin-right: 25%;
+    font-size: 1.3em;
+    color: white;
+    margin-top: 2em;
+}
+.post-someone{
+    font-family: cursive;
+    font-size: 2.5rem;
+    padding-block-end: 2em;
+}

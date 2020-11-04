@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    height: 8rem;
+    box-shadow: 4px 10px 20px 3px rgba(179,179,245,1);
+    width: 100%;
+    /*position: fixed;
+    z-index: 1000;*/
+    background-color: black;
+    background-image: url(https://img.freepik.com/vector-gratis/vector-circulo-tecnologia-luz-azul-bombilla-sobre-fondo-tecnologia_43778-444.jpg?size=626&ext=jpg&ga=GA1.2.288673660.1597536000);
+    background-size: 16.5625rem;
+    background-repeat: no-repeat;
+}
+
+.iam{
+    margin-top: 3.75rem;
+}
+
+/*@media(max-width:900px){
+    header{
+        flex-direction: column;
+    
+    }
+}*/
+
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 6.25rem;
+    padding-top: 3rem;
+}
+
+ul li{
+    margin-left: 0.9375rem;
+    /*border-radius: 5px;*/
+    /*background-color: grey;*/
+    font-size: 1.3em;
+    padding: 0.5em;
+    line-height: 2;
+}
+li :hover{
+    color: #3F3D56 ;
+}
+.hola{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+    
+
+.conocimientos{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+.proyectos{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+.contacto{
+    text-decoration: none;
+    color: white;
+    border-radius: 3.125rem;
+    background-color: #BF0000;  
+    padding: 0.7em;
+}
+main h2{
+    padding-top: 13vh;
+    font-size: 3.125rem;
+    margin-left: 3.125rem;
+}
+main h1{
+    padding-top: 8vh;
+    font-size: 5.3125rem;
+    color: #BF0000;
+    margin-left: 2.6875rem;
+}
+.description{
+    font-size: 1.3em;
+    padding-top: 10vh;
+    margin-left: 3.125rem;
+}
+.world{
+    display: flex;
+    flex-direction: row-reverse;
+    /*border: 1px solid black;*/
+    margin-left: auto;
+    height: 95vh;
+}
+main{
+    display: flex;  
+}
+footer{
+    display: flex;
+    border: 1px solid black;
+    padding-left: 10%;
+}
+.doingButton{
+    font-size: 0.9375rem;
+    height: 2.5em;
+    font-weight: 600;
+    color: white;
+    border-radius: 50px;
+    background-color: #BF0000;  
+    padding: 0.5em;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 13%;
+    margin-top: 7%;
+}
+.doing{
+    margin-top: 10%;
+    margin-left: 13%;
+    color: white;
+    text-decoration: none;
+}
+
+.quote{
+    color: white;
+    font-size: 2em;
+}
+
+ 

@@ -1,0 +1,84 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    background-color: rgb(236, 236, 236);
+    margin: 3em;
+    padding: 6em;
+}
+.contactMe, .readMe{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /*margin: 5em;*/
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.titleContact, .titleReadme{
+    display: flex;
+    justify-content: left;
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 2em;
+}
+.networks{
+    display: flex;
+    flex-direction: column;
+}
+
+.go{
+    text-decoration: none;
+    color: #BF0000;
+}
+/*.icon{
+    color: #8a197b;
+}*/
+.clic :hover{
+    color: #8a197b;
+}
+.icon :hover{
+    color: #8a197b ;
+}
+.readContact{
+    margin-left: 6%;
+    margin-right: 15%;
+}
+form{
+    margin-left: 4%;
+}
+input{
+    height: 6vh;
+    width: 30%;
+    margin: 1em;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: #CCCCCC;
+}
+.form, .order{
+    display: block;
+    margin-left: 0.3em;
+}
+textarea{
+    height: 30vh;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: #CCCCCC;
+}
+.send{
+    height: 4vh;
+    width: 16%;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+}
+.send:hover{
+    color: #BF0000;
+    cursor: pointer;
+}
+form label{
+    display: block;
+    margin: 5px 0px 10px 0px; 
+}
