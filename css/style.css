@@ -15,8 +15,8 @@ header{
     height: 8rem;
     box-shadow: 4px 10px 20px 3px rgba(179,179,245,1);
     width: 100%;
-    /*position: fixed;
-    z-index: 1000;*/
+    position: fixed;
+    z-index: 1000;
     background-color: black;
     background-image: url(https://img.freepik.com/vector-gratis/vector-circulo-tecnologia-luz-azul-bombilla-sobre-fondo-tecnologia_43778-444.jpg?size=626&ext=jpg&ga=GA1.2.288673660.1597536000);
     background-size: 16.5625rem;
@@ -24,7 +24,7 @@ header{
 }
 
 .iam{
-    margin-top: 3.75rem;
+    margin-top: 7.8125rem;
 }
 
 /*@media(max-width:900px){

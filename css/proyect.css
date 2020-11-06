@@ -17,6 +17,7 @@
     align-items: center;
     font-size: 3.4375rem;
     height: 4em;
+    padding-top: 9.375rem;
 }
 .readProyect{
     display: flex;
@@ -27,6 +28,7 @@
     margin-right: 25%;
     font-size: 1.3em;
     color: black;
+    padding-top: 20px;
 }
 .styleProyect{
     display: flex;
