@@ -6,6 +6,24 @@
     margin: 3em;
     padding: 6em;
 }
+
+@media (max-width: 350px){
+    .contact{
+        background-color: white;
+        padding: 4em;
+    }
+}
+
+@media (max-width: 350px){
+    .readContact{
+        font-family: monospace;
+        font-size: 1.875rem;
+        font-weight: bold;
+        color: blue;
+    }
+}
+
+
 .contactMe, .readMe{
     background-color: white;
     display: flex;
@@ -15,6 +33,13 @@
     border: 1px solid white;
     border-radius: 1px;
 }
+
+@media (max-width: 350px){
+    .contactMe, .readMe{
+        margin-left: -3.125rem;
+    }
+}
+
 .titleContact, .titleReadme{
     display: flex;
     justify-content: left;
@@ -22,6 +47,16 @@
     margin-top: 1em;
     font-size: 2em;
 }
+
+@media (max-width: 350px){
+    .titleContact, .titleReadme{
+        font-size: 2.5rem;
+        font-family: monospace;
+        font-weight: bold;
+        margin-left: -2.8125rem;
+    }
+}
+
 .networks{
     display: flex;
     flex-direction: column;
@@ -37,6 +72,13 @@
 .clic :hover{
     color: #8a197b;
 }
+
+@media (max-width:350px){
+    .clic{
+        font-size: 1.75rem;
+    }
+}
+
 .icon :hover{
     color: #8a197b ;
 }
@@ -55,17 +97,46 @@ input{
     border: 2px solid grey;
     background-color: #CCCCCC;
 }
+
+@media (max-width: 350px){
+    input{
+        height: 15vh;
+        width: 145%;
+        font-size: 1.3125rem;
+    }
+}
+
 .form, .order{
     display: block;
     margin-left: 0.3em;
 }
+
+@media (max-width:350px){
+    .form, .order{
+        width: 12.5rem;
+        font-size: 2.5rem;
+        font-family: monospace;
+        font-weight: bold;
+        color: red;
+    }
+}
+
 textarea{
     height: 30vh;
     width: 90%;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     border: 2px solid grey;
     background-color: #CCCCCC;
 }
+
+@media (max-width: 350px){
+    textarea{
+        width: 160%;
+        height: 35vh;
+        font-size: 1.875rem;
+    }
+}
+
 .send{
     height: 4vh;
     width: 16%;
@@ -74,6 +145,15 @@ textarea{
     background-color: blue;
     color: white;
 }
+
+@media (max-width: 350px){
+    .send{
+        width: 100%;
+        height: 15vh;
+        font-size: 2.8125rem;
+    }
+}
+
 .send:hover{
     color: #BF0000;
     cursor: pointer;

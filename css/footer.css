@@ -5,6 +5,16 @@
     justify-content: center;*/
     padding-right: 5em;
 }
+
+
+
+@media (max-width:350px){
+    .back{
+        font-size: 60px;
+    }
+}
+
+
 /*.me{
     display: flex;
     justify-content: left;
@@ -19,6 +29,13 @@ footer{
     background-color: black;
     color: white;
 }
+
+@media (max-width: 350px){
+    footer{
+        width: 800px;
+    }
+}
+
 .end{
     margin-left: 20%;
     padding-top: 5%;
@@ -29,12 +46,28 @@ footer{
     padding-top: 5%; 
     margin-right: 10%;
 }
+
+@media (max-width: 350px){
+    .me{
+        font-size: 30px;
+        margin-left: 3%;
+        margin-left: 3%;
+    }
+}
+
 .going{
     text-decoration: none;  
     justify-content: center;
     padding-right: 5em;
     margin-right: 6%;
 }
+
+@media (max-width: 350px){
+    .going{
+        padding-right: 2.5em;
+    }
+}
+
 .going :hover{
     color: #8a197b;
     cursor: pointer;
@@ -48,6 +81,13 @@ footer{
     font-size: 1.2em;
     margin-left:40%;
 }
+
+@media (max-width: 350px){
+    .love{
+        font-size: 4em;
+    }
+}
+
 @media(max-width:1200px){
     body{
         font-size: 14px;

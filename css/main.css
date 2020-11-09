@@ -3,6 +3,13 @@
 background: radial-gradient(circle, rgba(0,17,103,1) 0%, rgba(228,46,83,1) 100%);
 color: black;
 }
+
+@media (max-width: 350px){
+    .know{
+        width: 40.3125rem;
+    }
+}
+
 .knew{
     display: flex;
     justify-content: center;
@@ -11,6 +18,14 @@ color: black;
     height: 10rem;
     padding-top: 10.625rem;
 }
+
+@media (max-width: 350px){
+    .knew{
+        height: 5rem;
+        font-size: 5rem;
+    }
+}
+
 .read{
     display: flex;
     flex-direction: row;
@@ -21,6 +36,13 @@ color: black;
     font-size: 1.3em;
     color: white;
     margin-top: 3.125rem;
+}
+
+@media (max-width: 350px){
+    .read{
+        font-size: 3.5em;
+        margin-top: 5rem;
+    }
 }
 
 
@@ -64,6 +86,13 @@ figcaption, .html, .css3 .sass{
     font-size: 3.4375rem;
     height: 4em;
 }
+
+@media (max-width:350px){
+    .someone{
+        width: 40.3125rem;
+    }
+}
+
 .subtitle-quote, .post-someone{
     display: flex;
     flex-direction: row;
@@ -80,3 +109,5 @@ figcaption, .html, .css3 .sass{
     font-size: 2.5rem;
     padding-block-end: 2em;
 }
+
+

@@ -29,6 +29,15 @@ header{
     list-style: none;
 }
 
+@media (max-width: 350px){
+    .menu{
+        font-size: 4.375rem;
+        margin-right: -9.0625rem;
+        color: white;
+    }
+}
+
+
 .iam{
     margin-top: 7.8125rem;
 }
@@ -112,6 +121,13 @@ main h1{
     padding-top: 10vh;
     margin-left: 3.125rem;
 }
+
+@media (max-width:350px){
+    .description{
+        font-size: 4em;
+    }
+}
+
 .world{
     display: flex;
     flex-direction: row-reverse;
@@ -119,9 +135,23 @@ main h1{
     margin-left: auto;
     height: 95vh;
 }
+
+@media screen and (max-width:350px){
+    .world{
+        height: auto;
+    }
+}
+
 main{
     display: flex;  
 }
+
+@media(max-width:350px){
+    main h2{
+        font-size: 5rem;
+    }
+}
+
 footer{
     display: flex;
     border: 1px solid black;
@@ -140,12 +170,29 @@ footer{
     margin-left: 13%;
     margin-top: 7%;
 }
+
+@media (max-width: 350px){
+    .doingButton{
+        height: 6em;
+        width: 90%;
+    }
+}
+
+
+
 .doing{
     margin-top: 10%;
     margin-left: 13%;
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 350px){
+    .doing{
+        font-size: 2.0625rem;
+    }
+}
+
 
 .quote{
     color: white;
