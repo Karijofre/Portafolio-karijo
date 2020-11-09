@@ -14,7 +14,7 @@
 
 @media (max-width: 350px){
     .proyects{
-        width: 40.3125rem;
+        width: 62.5rem;
     }
 }
 
@@ -26,6 +26,13 @@
     height: 4em;
     padding-top: 9.375rem;
 }
+
+@media (max-width: 350px){
+    .title-proyects{
+        font-size: 3.5625rem;
+    }
+}
+
 .readProyect{
     display: flex;
     flex-direction: row;
@@ -40,7 +47,7 @@
 
 @media (max-width:350px){
     .readProyect{
-        font-size:  2.3em;
+        font-size:  2.1875rem;
         color: steelblue;
     }
 
@@ -60,7 +67,7 @@
 @media (max-width: 350px){
     .styleProyect{
         border-radius: 31.25rem;
-        height: 6.25rem;
+        height: 9rem;
     }
 }
 
