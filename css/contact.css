@@ -21,6 +21,16 @@
     }
 }
 
+@media (max-width: 378px){
+    .contact{
+        margin: 0;
+        padding: 1.5em;
+        font-size: 1.875rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 350px){
     .readContact{
         font-family: monospace;
@@ -138,7 +148,13 @@ input{
     input{
         width: 90%;
         height: 9vh;
-        font-size: 11px;
+        font-size: 0.6875rem;
+    }
+}
+
+@media (max-width: 378px){
+    input{
+        font-size: 2.1875rem;
     }
 }
 
@@ -187,7 +203,13 @@ textarea{
 
 @media (max-width: 640px) and (min-width: 360px){
     textarea{
-        font-size: 11px;
+        font-size: 0.6875rem;
+    }
+}
+
+@media (max-width: 378px){
+    textarea{
+        font-size: 2.8125rem;
     }
 }
 
@@ -223,6 +245,12 @@ textarea{
     }
 }
 
+@media (max-width: 378px){
+    .send{
+        font-size: 3.125rem;
+    }
+}
+
 
 .send:hover{
     color: #BF0000;
@@ -232,3 +260,5 @@ form label{
     display: block;
     margin: 5px 0px 10px 0px; 
 }
+
+

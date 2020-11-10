@@ -36,6 +36,12 @@
     }
 }
 
+@media (max-width: 378px){
+    .proyects{
+        width: 40rem;
+    }
+}
+
 .title-proyects{
     display: flex;
     justify-content: center;
@@ -48,6 +54,12 @@
 @media (max-width: 350px){
     .title-proyects{
         font-size: 3.5625rem;
+    }
+}
+
+@media (max-width: 378px){
+    .title-proyects{
+        font-size: 4rem;
     }
 }
 
@@ -69,6 +81,12 @@
         color: steelblue;
     }
 
+}
+
+@media (max-width: 378px){
+    .readProyect{
+        font-size: 3em;
+    }
 }
 
 .styleProyect{
@@ -104,6 +122,12 @@
     }
 }
 
+@media (max-width: 378px){
+    .styleProyect{
+        height: 25rem;
+    }
+}
+
 .firstLine, .secondLine, .thirdLine{
     display: flex;
     flex-direction: row;
@@ -123,12 +147,19 @@ figure{
     figcaption{
         color: steelblue;
         font-size: 2rem;
+        padding-top: 1px;
     }
 }
 
 @media (max-width: 640px) and (min-width: 360px){
     figcaption{
         padding-top: 0.0625rem;
+    }
+}
+
+@media (max-width: 378px){
+    figcaption{
+        font-size: 2rem;
     }
 }
 
