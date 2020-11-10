@@ -28,12 +28,19 @@ header{
     background-size: 16.5625rem;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 320px){
+    header{
+        height: 1rem;
+    }
+}
 .menu{
     margin-top: 4rem;
     margin-right: 10rem;
     font-size: 1.75rem;
     list-style: none;
 }
+
 
 @media (max-width: 350px){
     .menu{
@@ -193,6 +200,12 @@ footer{
 }
 
 @media (max-width: 375px){
+    .doingButton{
+        width: 80%;
+    }
+}
+
+@media (max-width: 640px) and (min-width: 360px){
     .doingButton{
         width: 80%;
     }

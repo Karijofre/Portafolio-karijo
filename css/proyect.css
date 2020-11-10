@@ -12,6 +12,12 @@
     height: 250vh;
 }
 
+@media (max-width: 320px){
+    .proyects{
+        height: 265vh;
+    }
+}
+
 @media (max-width: 350px){
     .proyects{
         width: 62.5rem;
@@ -21,6 +27,12 @@
 @media (max-width: 375px){
     .proyects{
         width: 43.75rem;
+    }
+}
+
+@media (max-width: 640px) and (min-width: 360px){
+    .proyects{
+        height: 380vh;
     }
 }
 
@@ -85,6 +97,13 @@
     }
 }
 
+@media (max-width: 640px) and (min-width:360px){
+    .styleProyect{
+        width: 30%;
+        
+    }
+}
+
 .firstLine, .secondLine, .thirdLine{
     display: flex;
     flex-direction: row;
@@ -104,6 +123,12 @@ figure{
     figcaption{
         color: steelblue;
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 640px) and (min-width: 360px){
+    figcaption{
+        padding-top: 0.0625rem;
     }
 }
 
