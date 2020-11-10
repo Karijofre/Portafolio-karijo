@@ -14,6 +14,12 @@
     }
 }
 
+@media (max-width: 375px){
+    .back{
+        padding-right: 2em;
+    }
+}
+
 
 /*.me{
     display: flex;
@@ -36,11 +42,18 @@ footer{
     }
 }
 
+@media (max-width: 375px){
+    footer{
+        width: 43.75rem;
+    }
+}
+
 .end{
     margin-left: 20%;
     padding-top: 5%;
     font-size: 1.2em;
 }
+
 .me{
     margin-left: 25%;
     padding-top: 5%; 
@@ -68,6 +81,12 @@ footer{
     }
 }
 
+@media (max-width: 375px){
+    .going{
+        padding-right: 3em;
+    }
+}
+
 .going :hover{
     color: #8a197b;
     cursor: pointer;
@@ -86,6 +105,12 @@ footer{
     .love{
         font-size: 4em;
         margin-right: 50%;
+    }
+}
+
+@media (max-width: 375px){
+    .love{
+        font-size: 1.5em;
     }
 }
 

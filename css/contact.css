@@ -14,6 +14,13 @@
     }
 }
 
+@media (max-width: 375px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 350px){
     .readContact{
         font-family: monospace;
@@ -37,6 +44,12 @@
 @media (max-width: 350px){
     .contactMe, .readMe{
         margin-left: -3.125rem;
+    }
+}
+
+@media (max-width: 375px){
+    .contactMe, .readMe{
+        width: 26.4375rem;
     }
 }
 
@@ -86,6 +99,13 @@
     margin-left: 6%;
     margin-right: 15%;
 }
+
+@media (max-width: 375px){
+    .readContact{
+        font-size: 1.25rem;
+    }
+}
+
 form{
     margin-left: 4%;
 }
@@ -106,6 +126,14 @@ input{
     }
 }
 
+@media (max-width: 375px){
+    input{
+        width: 90%;
+        height: 8vh;
+        font-size: 0.9375rem;
+    }
+}
+
 .form, .order{
     display: block;
     margin-left: 0.3em;
@@ -118,6 +146,12 @@ input{
         font-family: monospace;
         font-weight: bold;
         color: red;
+    }
+}
+
+@media (max-width: 375px){
+    form label{
+        font-size: 1.375rem;
     }
 }
 
@@ -137,6 +171,12 @@ textarea{
     }
 }
 
+@media (max-width: 375px){
+    textarea{
+        font-size: 1.25rem;
+    }
+}
+
 .send{
     height: 4vh;
     width: 16%;
@@ -153,6 +193,15 @@ textarea{
         font-size: 2.8125rem;
     }
 }
+
+@media (max-width: 375px){
+    .send{
+        width: 50%;
+        height: 8vh;
+        font-size: 1.5625rem;
+    }
+}
+
 
 .send:hover{
     color: #BF0000;

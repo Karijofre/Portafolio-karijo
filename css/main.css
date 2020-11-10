@@ -10,6 +10,12 @@ color: black;
     }
 }
 
+@media (max-width: 375px){
+    .know{
+        width: 43.75rem;
+    }
+}
+
 .knew{
     display: flex;
     justify-content: center;
@@ -94,6 +100,12 @@ figcaption, .html, .css3 .sass{
     }
 }
 
+@media (max-width: 375px){
+    .someone{
+        width: 43.75rem;
+    }
+}
+
 .subtitle-quote, .post-someone{
     display: flex;
     flex-direction: row;
@@ -111,6 +123,12 @@ figcaption, .html, .css3 .sass{
         font-size: 3.125rem;
     }
     
+}
+
+@media (max-width: 375px){
+    .subtitle-quote{
+        font-size: 1.8em;
+    }
 }
 
 .post-someone{

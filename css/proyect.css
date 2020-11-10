@@ -18,6 +18,12 @@
     }
 }
 
+@media (max-width: 375px){
+    .proyects{
+        width: 43.75rem;
+    }
+}
+
 .title-proyects{
     display: flex;
     justify-content: center;
@@ -68,6 +74,14 @@
     .styleProyect{
         border-radius: 31.25rem;
         height: 9rem;
+    }
+}
+
+@media (max-width: 375px){
+    .styleProyect{
+        width: 25%;
+        height: 16.25rem;
+        margin: 0;
     }
 }
 
