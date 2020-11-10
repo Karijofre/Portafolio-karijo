@@ -42,6 +42,12 @@
     }
 }
 
+@media (max-width: 425px){
+    .proyects{
+        width: 43.75rem;
+    }
+}
+
 .title-proyects{
     display: flex;
     justify-content: center;
@@ -60,6 +66,12 @@
 @media (max-width: 378px){
     .title-proyects{
         font-size: 4rem;
+    }
+}
+
+@media (max-width: 425px){
+    .title-proyects{
+        font-size: 3rem;
     }
 }
 
@@ -125,6 +137,12 @@
 @media (max-width: 378px){
     .styleProyect{
         height: 25rem;
+    }
+}
+
+@media (max-width: 425px){
+    .styleProyect{
+        height: 16.25rem;
     }
 }
 

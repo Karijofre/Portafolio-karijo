@@ -70,6 +70,14 @@ ul{
     margin-right: 6.25rem;
     padding-top: 3rem;
 }
+
+/*@media (max-width:425px){
+    ul{
+        font-size: 0.625rem;
+        margin-right: 80rem;
+    }
+}*/
+
 .menu{
     color: #841fdd;
 }

@@ -22,6 +22,12 @@ color: black;
     }
 }
 
+@media (max-width: 425px){
+    .know{
+        width: 43.75rem;
+    }
+}
+
 .knew{
     display: flex;
     justify-content: center;
@@ -41,6 +47,12 @@ color: black;
 @media (max-width: 378px){
     .knew{
         font-size: 3.8rem;
+    }
+}
+
+@media (max-width:425px){
+    .knew{
+        font-size: 3rem;
     }
 }
 
@@ -127,6 +139,12 @@ figcaption, .html, .css3 .sass{
 @media (max-width: 378px){
     .someone{
         width: 40rem;
+    }
+}
+
+@media (max-width: 425px){
+    .someone{
+        width: 43.75rem;
     }
 }
 

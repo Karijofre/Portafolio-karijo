@@ -27,6 +27,12 @@
     }
 }
 
+@media (max-width: 425px){
+    .back{
+        font-size: 1.5625rem;
+    }
+}
+
 footer{
     display: flex;
     flex-direction: column;
@@ -69,6 +75,13 @@ footer{
     }
 }
 
+@media (max-width: 425px){
+    .end{
+        width: 10%;
+        font-size: 1em;
+    }
+}
+
 .me{
     margin-left: 25%;
     padding-top: 5%; 
@@ -93,6 +106,12 @@ footer{
     .me{
         margin-right: 90%;
         font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 425px){
+    .me{
+        margin-right: 0;
     }
 }
 
@@ -145,6 +164,13 @@ footer{
 @media (max-width: 378px){
     .love{
         font-size: 2.5em;
+    }
+}
+
+@media (max-width: 425px){
+    .love{
+        margin-left: 40%;
+        font-size: 1.5625rem;
     }
 }
 
