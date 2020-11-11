@@ -5,7 +5,7 @@
 ***
 
 
-## Si quiere ver como quedó mi proyecto, puedes dar clic al siguiente [enlace](https://karijofre.github.io/Portafolio-karijo/) o puedes hacerlo desde acá [acá](https://karijofre.github.io/Portafolio-karijo/)
+## Si quiere ver como quedó mi proyecto, puedes dar clic al siguiente [enlace](https://karijofre.github.io/Portafolio-karijo/) o puedes hacerlo desde acá [acá](https://sad-swirles-a6aba2.netlify.app/)
 <br>
 
 ***
