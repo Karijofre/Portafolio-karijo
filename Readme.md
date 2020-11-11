@@ -5,7 +5,7 @@
 ***
 
 
-## Si quiere ver como quedó mi proyecto, puedes dar clic al siguiente [enlace] (https://karijofre.github.io/Portafolio-karijo/) o puedes hacerlo desde acá [acá](https://karijofre.github.io/Portafolio-karijo/)
+## Si quiere ver como quedó mi proyecto, puedes dar clic al siguiente [enlace](https://karijofre.github.io/Portafolio-karijo/) o puedes hacerlo desde acá [acá](https://karijofre.github.io/Portafolio-karijo/)
 <br>
 
 ***
@@ -30,7 +30,7 @@
 ![imágen](./img/screen.png)
 
 ***
-## Este portafolio fue desarrollado para la cursada 6 de ADA. Agradezco a [Jonh](url) por la ayuda proporcionada.
+## Este portafolio fue desarrollado para la cursada 6 de ADA. Agradezco a [Jonh](https://github.com/Jonhks) por la ayuda proporcionada.
 
 ***
 
