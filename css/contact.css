@@ -54,8 +54,11 @@
     }
 }
 
-
-
+@media (max-width: 1024px) and (min-width: 900px){
+    .networks{
+        display: block;
+    }
+}
 
 .contactMe, .readMe{
     background-color: white;

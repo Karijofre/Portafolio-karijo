@@ -56,6 +56,12 @@ color: black;
     }
 }
 
+@media (max-width: 1024px) and (min-width: 900px){
+    .knew{
+        height: auto;
+    }
+}
+
 .read{
     display: flex;
     flex-direction: row;
@@ -112,6 +118,8 @@ figcaption, .html, .css3 .sass{
 .line2{
     padding-block-end: 5em;
 }
+
+
 .someone{
     background-color:  rgb(145, 16, 117);
 }

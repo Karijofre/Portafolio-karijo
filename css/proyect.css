@@ -48,6 +48,12 @@
     }
 }
 
+@media (max-width: 1024px) and (min-width: 900px){
+    .proyects{
+        height: auto;
+    }
+}
+
 .title-proyects{
     display: flex;
     justify-content: center;
@@ -153,6 +159,12 @@
     margin-top: 3.75rem;
     width: 100%;
     height: 18%;
+}
+
+@media (max-width: 1024px) and (min-width: 900px){
+    .firstLine, .secondLine, .thirdLine{
+        height: auto;
+    }
 }
 
 figure{
