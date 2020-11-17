@@ -213,7 +213,7 @@ input{
 
 @media (max-width:900px) and (min-width:320px){
     input{
-        width: 270%;
+        width:auto;
         height: 7.5rem;
         font-size: 40px;
     }
@@ -296,7 +296,7 @@ textarea{
 @media (max-width:900px) and (min-width:320px){
     textarea{
         font-size: 2.5rem;
-        width: 300%;
+        width: auto;
     }
 }
 .send{
