@@ -54,6 +54,12 @@
     }
 }
 
+@media (max-width:900px) and (min-width:320px){
+    .proyects{
+        height: auto;
+    }
+}
+
 .title-proyects{
     display: flex;
     justify-content: center;
