@@ -193,9 +193,22 @@ figure{
     }
 }
 
+@media (max-width:900px) and (min-width:320px){
+    figcaption{
+        font-size: 2rem;
+    }
+}
+
 .styleProyect:hover{
     background-color: #96969c;
     cursor: pointer;
+}
+
+@media (max-width:900px) and (min-width:320px){
+    .styleProyect{
+        width: 33%;
+        height: auto;
+    }
 }
 .thirdLine{
     justify-content: left;

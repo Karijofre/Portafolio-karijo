@@ -93,6 +93,11 @@ color: black;
     }
 }
 
+@media (max-width:900px) and (min-width:320px){
+    .read{
+        font-size: 3.125rem;
+    }
+}
 
 .icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
     display: flex;

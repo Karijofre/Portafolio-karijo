@@ -63,6 +63,13 @@ footer{
     }
 }
 
+@media (max-width:900px) and (min-width:320px){
+    .back{
+        font-size: 2.6875rem;
+        font-weight: bold;
+    }
+}
+
 .end{
     margin-left: 20%;
     padding-top: 5%;
@@ -90,7 +97,7 @@ footer{
 
 @media (max-width: 350px){
     .me{
-        font-size: 30px;
+        font-size: 1.875rem;
         margin-left: 3%;
         margin-left: 3%;
     }
@@ -112,6 +119,13 @@ footer{
 @media (max-width: 425px){
     .me{
         margin-right: 0;
+    }
+}
+
+@media (max-width:900px) and (min-width:320px){
+    .me{
+        margin-left: -6%;
+        font-size: 1.875rem;
     }
 }
 
@@ -171,6 +185,14 @@ footer{
     .love{
         margin-left: 40%;
         font-size: 1.5625rem;
+    }
+}
+
+@media (max-width:900px) and (min-width:320px){
+    .love{
+        color: #8a197b;
+        font-weight: bold;
+        font-size: 3.75rem;
     }
 }
 
