@@ -54,9 +54,67 @@
     }
 }
 
+@media (max-width:1024px) and (min-width:900px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1630px) and (min-width:900px){
+    .networks{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25rem;
+    }
+}
+
 @media (max-width: 1024px) and (min-width: 900px){
     .networks{
         display: block;
+    }
+}
+
+@media (max-width:1630px) and (min-width:900px){
+    .titleContact{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:1630px) and (min-width:900px){
+    .titleReadme{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:1630px) and (min-width:900px){
+    .readContact{
+        font-size: 1.4375rem;
+    }
+}
+
+@media (max-width:1630px) and (min-width:900px){
+    .nameLastname{
+        font-size: 1.4375rem;
+    }
+
+}
+
+@media (max-width:1024px) and (min-width:900px){
+    .nameLastname{
+        font-size: 1.875rem;
+    }
+}
+
+@media (max-width:1630px) and (min-width:900px){
+    .order{
+        font-size: 1.4375rem;
+    }
+}
+
+@media (max-width:1024px) and (min-width:900px){
+    .order{
+        font-size: 1.875rem;
     }
 }
 
@@ -219,6 +277,7 @@ input{
     }
 }
 
+
 .form, .order{
     display: block;
     margin-left: 0.3em;
@@ -299,6 +358,7 @@ textarea{
         width: auto;
     }
 }
+
 .send{
     height: 4vh;
     width: 16%;

@@ -1,11 +1,11 @@
 #Portafolio de Kari Jo
 
-## Este proyecto está realizado para mostrar...
+## Este proyecto está realizado para mostrar mi introducción personal y presentación de los proyectos que fui haciendo a lo largo del del Modulo 1 del curso Frontend de ADA y cualquier persona pueda acceder a ver los estilos, secciones,interacciones y efectos para una mejor experiencia de usuario.
 
 ***
 
 
-## Si quiere ver como quedó mi proyecto, puedes dar clic al siguiente [enlace](https://karijofre.github.io/Portafolio-karijo/) o puedes hacerlo desde acá [acá](https://sad-swirles-a6aba2.netlify.app/)
+## Si quiere ver como quedó mi proyecto, puedes dar clic al siguiente [enlace](https://karijofre.github.io/Portafolio-karijo/) o puedes hacerlo desde [acá](https://sad-swirles-a6aba2.netlify.app/)
 <br>
 
 ***

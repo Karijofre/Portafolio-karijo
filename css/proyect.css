@@ -60,6 +60,12 @@
     }
 }
 
+@media (max-width:1630px) and (min-width:900px){
+    .proyects{
+        height:auto;
+    }
+}
+
 .title-proyects{
     display: flex;
     justify-content: center;
@@ -222,3 +228,4 @@ figure{
     /*padding-top: 60px;*/
     width: 110%;
 }
+
