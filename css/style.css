@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 body{
     font-size: 1rem;
@@ -21,7 +21,7 @@ header{
     justify-content: flex-end; 
     height: 8rem;
     box-shadow: 4px 10px 20px 3px rgba(179,179,245,1);
-    width: 100%;
+    width: auto;
     position: fixed;
     z-index: 1000;
     background-color: black;
@@ -266,6 +266,12 @@ footer{
     }
 }
 
+@media (max-width:900px) and (min-width:320px){
+    .doingButton{
+        width: 30%;
+    }
+}
+
 .doing{
     margin-top: 10%;
     margin-left: 13%;
@@ -276,6 +282,12 @@ footer{
 @media (max-width: 350px){
     .doing{
         font-size: 2.0625rem;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 320px){
+    .doing{
+        font-size: 1.25rem;
     }
 }
 

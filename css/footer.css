@@ -154,6 +154,14 @@ footer{
     }
 }
 
+@media (max-width: 900px) and (min-width: 320px){
+    .going{
+        padding-right: 3em;
+        margin-right:0px;
+
+    }
+}
+
 .going :hover{
     color: #8a197b;
     cursor: pointer;

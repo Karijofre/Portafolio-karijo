@@ -275,14 +275,13 @@ input{
     }
 }
 
-@media (max-width:900px) and (min-width:320px){
+@media (max-width: 900px) and (min-width: 320px){
     input{
         width:auto;
         height: 7.5rem;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 }
-
 
 .form, .order{
     display: block;
