@@ -63,18 +63,18 @@ footer{
     }
 }
 
-@media (max-width:900px) and (min-width:320px){
+/*@media (max-width:900px) and (min-width:320px){
     footer{
         width: auto;
     }
-}
+}*/
 
-@media (max-width:900px) and (min-width:320px){
+/*@media (max-width:900px) and (min-width:320px){
     .back{
         font-size: 2.6875rem;
         font-weight: bold;
     }
-}
+}*/
 
 .end{
     margin-left: 20%;
@@ -128,12 +128,12 @@ footer{
     }
 }
 
-@media (max-width:900px) and (min-width:320px){
+/*@media (max-width:900px) and (min-width:320px){
     .me{
         margin-left: -6%;
         font-size: 1.875rem;
     }
-}
+}*/
 
 .going{
     text-decoration: none;  
@@ -154,13 +154,13 @@ footer{
     }
 }
 
-@media (max-width: 900px) and (min-width: 320px){
+/*@media (max-width: 900px) and (min-width: 320px){
     .going{
         padding-right: 3em;
         margin-right:0px;
 
     }
-}
+}*/
 
 .going :hover{
     color: #8a197b;
@@ -202,14 +202,14 @@ footer{
     }
 }
 
-@media (max-width:900px) and (min-width:320px){
+/*@media (max-width:900px) and (min-width:320px){
     .love{
         color: #8a197b;
         font-weight: bold;
         font-size: 3.75rem;
         width: auto;
     }
-}
+}*/
 
 @media(max-width:1200px){
     body{
