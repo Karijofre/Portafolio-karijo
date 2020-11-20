@@ -21,6 +21,12 @@
     }
 }
 
+@media (max-width:667px) and (min-width:375px){
+    article .contact{
+        width: auto;
+    }
+}
+
 @media (max-width: 378px){
     .contact{
         margin: 0;
